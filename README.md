@@ -11,7 +11,7 @@
 
 ## Key Bindings
 The `leader` is mapped to space
-1. `<leader>f Fuzzy finder
-    <leader>n nvim-tree toggle
-    <leader>p File explorer
-    <Ctrl>ww Cycle between nvim-tree and files`
+`<leader>f Fuzzy finder`
+`<leader>n nvim-tree toggle`
+`<leader>p File explorer`
+`<Ctrl>ww Cycle between nvim-tree and files`
