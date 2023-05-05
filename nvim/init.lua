@@ -1,9 +1,9 @@
 require("config")
 vim.opt.nu = true
 vim.opt.relativenumber = true
-vim.opt.tabstop = 2
-vim.opt.softtabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 1
+vim.opt.softtabstop = 1 
+vim.opt.shiftwidth = 1 
 vim.opt.expandtab = true
 vim.opt.smartindent = true
 vim.opt.wrap = false
@@ -13,4 +13,5 @@ vim.opt.undofile = true
 vim.opt.incsearch = true
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
-vim.cmd("colorscheme gruvbox")
+vim.cmd("let g:latex_to_unicode_auto = 1")
+vim.cmd("colorscheme gruvbox-baby")

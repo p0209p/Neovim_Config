@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/piyush/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["Mies.vim"] = {
+    loaded = true,
+    path = "/home/piyush/.local/share/nvim/site/pack/packer/start/Mies.vim",
+    url = "https://github.com/jaredgorski/Mies.vim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/piyush/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -114,10 +119,25 @@ _G.packer_plugins = {
     path = "/home/piyush/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  ["gruvbox-baby"] = {
+    loaded = true,
+    path = "/home/piyush/.local/share/nvim/site/pack/packer/start/gruvbox-baby",
+    url = "https://github.com/luisiacc/gruvbox-baby"
+  },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/piyush/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   ["jellybeans.vim"] = {
     loaded = true,
     path = "/home/piyush/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
     url = "https://github.com/nanotech/jellybeans.vim"
+  },
+  ["julia-vim"] = {
+    loaded = true,
+    path = "/home/piyush/.local/share/nvim/site/pack/packer/start/julia-vim",
+    url = "https://github.com/JuliaEditorSupport/julia-vim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -133,6 +153,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/piyush/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/home/piyush/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
+  },
+  ["no-clown-fiesta.nvim"] = {
+    loaded = true,
+    path = "/home/piyush/.local/share/nvim/site/pack/packer/start/no-clown-fiesta.nvim",
+    url = "https://github.com/aktersnurra/no-clown-fiesta.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -157,7 +187,7 @@ _G.packer_plugins = {
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/piyush/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://github.com/nvim-tree/nvim-web-devicons"
+    url = "https://github.com/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -173,6 +203,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/piyush/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-colors-lucid"] = {
+    loaded = true,
+    path = "/home/piyush/.local/share/nvim/site/pack/packer/start/vim-colors-lucid",
+    url = "https://github.com/cseelus/vim-colors-lucid"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/piyush/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 

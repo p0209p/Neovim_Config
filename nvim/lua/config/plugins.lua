@@ -34,10 +34,13 @@ return require('packer').startup(function(use)
     }
   }
   use {'nanotech/jellybeans.vim'}
-  use {
-    'nvim-tree/nvim-tree.lua',
-    requires = {
-      'nvim-tree/nvim-web-devicons', -- optional
-    },
-  }
+  use {'aktersnurra/no-clown-fiesta.nvim'}
+  use {'Shatur/neovim-ayu'}
+  use {'nvim-tree/nvim-tree.lua',requires={'nvim-web-devicons'}}
+  use {'sainnhe/gruvbox-material'}
+  use {'luisiacc/gruvbox-baby'}
+  use {'JuliaEditorSupport/julia-vim'}
+  use {'jaredgorski/Mies.vim'}
+  use {'cseelus/vim-colors-lucid'}
+  use {'tpope/vim-fugitive'}
 end)
