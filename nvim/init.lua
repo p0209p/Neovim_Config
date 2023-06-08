@@ -14,4 +14,4 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
 vim.cmd("let g:latex_to_unicode_auto = 1")
-vim.cmd("colorscheme gruvbox-baby")
+vim.cmd("colorscheme catppuccin")

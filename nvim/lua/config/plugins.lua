@@ -9,7 +9,6 @@ return require('packer').startup(function(use)
     'nvim-telescope/telescope.nvim', tag = '0.1.1',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-  use {'morhetz/gruvbox', as = 'gruvbox'}
   use {'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'}}
   use {
     'VonHeikemen/lsp-zero.nvim',
@@ -33,14 +32,10 @@ return require('packer').startup(function(use)
       {'rafamadriz/friendly-snippets'}, -- Optional
     }
   }
-  use {'nanotech/jellybeans.vim'}
   use {'aktersnurra/no-clown-fiesta.nvim'}
-  use {'Shatur/neovim-ayu'}
+  use {'nvim-tree/nvim-web-devicons'}
   use {'nvim-tree/nvim-tree.lua',requires={'nvim-web-devicons'}}
-  use {'sainnhe/gruvbox-material'}
-  use {'luisiacc/gruvbox-baby'}
   use {'JuliaEditorSupport/julia-vim'}
-  use {'jaredgorski/Mies.vim'}
-  use {'cseelus/vim-colors-lucid'}
   use {'tpope/vim-fugitive'}
+  use {'catppuccin/nvim'}
 end)
