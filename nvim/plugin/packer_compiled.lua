@@ -109,11 +109,6 @@ _G.packer_plugins = {
     path = "/home/piyush/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["no-clown-fiesta.nvim"] = {
-    loaded = true,
-    path = "/home/piyush/.local/share/nvim/site/pack/packer/start/no-clown-fiesta.nvim",
-    url = "https://github.com/no-clown-fiesta/no-clown-fiesta.nvim"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/piyush/.local/share/nvim/site/pack/packer/start/nvim-cmp",

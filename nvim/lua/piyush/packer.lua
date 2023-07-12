@@ -35,5 +35,4 @@ return require('packer').startup(function(use)
     }
     }
  use {'JuliaEditorSupport/julia-vim'}
- use {'no-clown-fiesta/no-clown-fiesta.nvim'}
 end)
